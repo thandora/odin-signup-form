@@ -1,0 +1,61 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+}
+
+.main-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+/* Left side - image and logo*/
+.image-container {
+  background-color: rgb(56, 56, 61);
+  position: relative;
+  width: 37.5%;
+}
+
+.image-container .background {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.image-container .logo-container {
+  height: 125px;
+  width: 100%;
+  padding: 5px 50px;
+  background-color: rgba(0, 0, 0, 0.349);
+  position: absolute;
+  top: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.image-container .logo-container .logo {
+  flex-shrink: 1;
+  height: 100px;
+}
+
+.image-container .logo-container h1 {
+  flex-shrink: 1;
+}
+
+/* Right side- registration form */
+.reg-container {
+  width: 62.5%;
+  background-color: rgb(90, 99, 96);
+}
