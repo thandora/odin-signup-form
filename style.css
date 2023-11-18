@@ -21,7 +21,6 @@ body {
 
 /* Left side - image and logo*/
 .image-container {
-  background-color: rgb(56, 56, 61);
   position: relative;
   width: 37.5%;
 }
@@ -52,10 +51,61 @@ body {
 
 .image-container .logo-container h1 {
   flex-shrink: 1;
+  font-weight: 700;
+  font-size: 3rem;
 }
 
 /* Right side- registration form */
 .reg-container {
+  font-size: 1.25rem;
+  background-color: #612134;
   width: 62.5%;
-  background-color: rgb(90, 99, 96);
+  display: flex;
+  flex-direction: column;
+}
+
+.reg-container .reg-message {
+  padding: 10rem 2.5rem 1rem 2.5rem;
+  color: rgb(209, 209, 209);
+}
+
+.reg-container p {
+  font: 1.25rem;
+  font-weight: 700;
+  margin: 16px 0px;
+}
+
+/* Form */
+
+.reg-container .form-container {
+  padding: 0.5rem 2rem;
+  background-color: #86334c;
+  box-shadow: 2px 4px rgba(73, 28, 41, 0.507);
+}
+
+.reg-container .form-row {
+  display: flex;
+  margin-top: 8px;
+}
+
+.form-row .form-input {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
+}
+
+.form-row label {
+  margin-bottom: 2px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  background-color: #FFFFFF;
+  border: 1px solid #D6D9DC;
+  border-radius: 3px;
+  width: 250px;
+  padding: 7px;
+  font-size: 14px;
 }
