@@ -23,6 +23,7 @@ body {
 .image-container {
   position: relative;
   width: 37.5%;
+  height: 100vh;
 }
 
 .image-container .background {
@@ -30,6 +31,19 @@ body {
   width: 100%;
   object-fit: cover;
 }
+
+.image-container .img-credit {
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  left: 25%;
+}
+
+.img-credit a {
+  color: white;
+}
+
 
 .image-container .logo-container {
   height: 125px;
